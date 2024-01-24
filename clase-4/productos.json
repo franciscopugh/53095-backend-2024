@@ -1,0 +1,14 @@
+[
+    {
+        "id": "eb45d6c9d606165c129a",
+        "nombre": "Arroz",
+        "precio": 450,
+        "cant": 4
+    },
+    {
+        "id": "d47f12bb8b81a2194f45",
+        "nombre": "Queso",
+        "precio": 1450,
+        "cant": 4
+    }
+]
