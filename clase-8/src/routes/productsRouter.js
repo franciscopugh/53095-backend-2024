@@ -38,7 +38,7 @@ productsRouter.post('/', async (req, res) => {
         const product = req.body
         console.log(product)
         const mensaje = await productManager.addProduct(product)
-        if (mensaje == "Producto creado correctamente")
+        if (mensaje == "Producto cargado correctamente")
             res.status(200).send(mensaje)
         else
             res.status(400).send(mensaje)
